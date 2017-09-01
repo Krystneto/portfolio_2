@@ -78,7 +78,6 @@ border-radius:0px !important;
 .navbar-new .navbar-brand {
   color: #f1f1f1;
 }
-}
 .navbar-new .navbar-text {
   color: #f1f1f1;
 }
@@ -179,7 +178,7 @@ border-color:#cccccc;
 
 .about_us {
   padding: 50px 0;
-  background:none repeat scroll 0 0 #F1F1F1;
+  background:none repeat scroll 0 0 #40e0d0;
   border-bottom:1px solid #D1D1D1 !important;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
@@ -241,7 +240,7 @@ label.valid {
 			margin-top: 2px;
 		}
 .portfolio {
-background:#f1f1f1;
+background:#40e0d0;
 }		
 /* gallery */
 .gallery {
@@ -384,7 +383,7 @@ width:60% !important;
 
 footer {
   padding: 20px 0;
-  background:#f1f1f1;
+  background:#40e0d0;
 }
 
 /* responsive */
