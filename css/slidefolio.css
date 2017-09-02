@@ -399,6 +399,13 @@ footer {
   background:#40e0d0;
 }
 
+.icon-highlight a {
+  color:#333333 !important;
+}
+
+.icon-highlight a:hover {
+  color: #fff !important;
+}
 /* responsive */
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { .navbar-brand {margin-left:20px;} .navbar-toggle {margin-right:25px;} #Grid .mix{margin-left:-25px;}}
