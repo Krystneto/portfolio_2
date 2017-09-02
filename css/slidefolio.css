@@ -1,9 +1,21 @@
 /* Global Styles */
 
+@font-face {
+  font-family: 'Hello Stockholm';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('HelloStockholm-Alt.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('HelloStockholm-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 html,
 body {
   height: 100%;
   width: 100%;
+  font-family: Times, Arial, Helvetica, sans-serif
 }
 .push50{
 margin-top:50px;
@@ -86,14 +98,15 @@ border-radius:0px !important;
 }
 .navbar-new .navbar-nav > li > a:hover,
 .navbar-new .navbar-nav > li > a:focus {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #40e0d0;
+  color: #000
 }
 .navbar-new .navbar-toggle {
   border-color: #dddddd;
 }
 .navbar-new .navbar-toggle:hover,
 .navbar-new .navbar-toggle:focus {
-  background-color: #000000;
+  background-color: #40e0d0;
 }
 .navbar-new .navbar-toggle .icon-bar {
   background-color: #cccccc;
@@ -149,7 +162,7 @@ border-radius:0px !important;
   color: #777777;
 }
 .navbar-new .navbar-link:hover {
-  color: #333333;
+  color: #40e0d0
 }
 /*Navbar */
 
@@ -178,7 +191,7 @@ border-color:#cccccc;
 
 .about_us {
   padding: 50px 0;
-  background:none repeat scroll 0 0 #40e0d0;
+  background:none repeat scroll 0 0 #fff;
   border-bottom:1px solid #D1D1D1 !important;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
@@ -240,7 +253,7 @@ label.valid {
 			margin-top: 2px;
 		}
 .portfolio {
-background:#40e0d0;
+background:#fff;
 }		
 /* gallery */
 .gallery {

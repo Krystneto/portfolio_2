@@ -346,7 +346,8 @@ p {
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 32px;
+    text-align: justify;
   }
 }
 small {
