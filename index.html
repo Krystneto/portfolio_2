@@ -12,8 +12,9 @@
     <!-- Add custom CSS here -->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/slidefolio.css" rel="stylesheet">
-	<!-- Font Awesome -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
   </head>
   <body>
     <!-- Header Area -->
@@ -22,7 +23,7 @@
 	  <!-- <img class="img-rounded" alt="Company Logo" src="./img/logo.jpg"/> -->
         <h2 class="animated fadeIn" style="color: #40e0d0; font-family: 'Hello Stockholm'; font-size:140px"><em>Kristopher Parchen</em></h2>
       <br>
-			<a href="#about" class="btn btn-top">Learn More</a>
+			<a href="#about" class="btn-top"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
       </div>
     </div>
     <!-- /Header Area -->
@@ -60,7 +61,12 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <h2>About Me</h2>
-            <p class="lead">Highly driven and trained developer with a passion for various computer technologies, from Computer-Aided Draft to modern web programming tools. Experienced team leader responsible for delivering successful projects from conception to execution. Thrives in environments that embrace new technologies, as well as support growth and the development of technical skills. Currently working with Materia, Inc., to create new features and updates to their website.</p>
+            <div class="about-me-container">
+              <div>
+                <a href="/"><img class="image-circle" src="https://i.imgur.com/CqkIIYib.jpg" /></a>
+              </div>    
+              <p class="lead">Highly driven and trained developer with a passion for various computer technologies, from Computer-Aided Draft to modern web programming tools. Experienced team leader responsible for delivering successful projects from conception to execution. Thrives in environments that embrace new technologies, as well as support growth and the development of technical skills. Currently working with Materia, Inc., to create new features and updates to their website.</p>
+            </div>
           </div>
         </div>
 	  </div>
@@ -71,7 +77,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
-            <h2>Technical Services</h2>
+            <h2>Technical Skills</h2>
             <hr>
           </div>
         </div>
@@ -79,22 +85,22 @@
           <div class="col-md-4 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-camera-retro fa-3x"></i>
-              <h3>Portrait</h3>
-              <p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse. </p>
+              <h3>Responsive Web Design</h3>
+              <!-- <p>HTML5, CSS3, Bootstrap, SASS</p> -->
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="service-item">
 			<i class="service-icon fa fa-camera fa-3x"></i>
-              <h3>Black & white</h3>
-              <p>In mea similique vulputate, ea cum amet malorum dissentiunt. Qui deleniti aliquando cu, ullum soluta his an, id inani salutatus sit.</p>
+              <h3>Front-End Frameworks</h3>
+              <!-- <p>React, Redux, Angular, Vue.js</p> -->
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-globe fa-3x"></i>
-              <h3>Web Design</h3>
-              <p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse.</p>
+              <h3>Back-End Development</h3>
+              <!-- <p>Node.js, Express, MongoDB, MySQL</p> -->
             </div>
           </div>
         </div>
@@ -124,31 +130,31 @@
 		
     		  <ul id="Grid" class="gcontainer">
     		    <li class="col-md-4 col-sm-4 col-xs-12 mix" data-cat="graphics">
-              <a data-toggle="modal" data-target="#portrait1" class="mix-cover">
+              <a data-target="#portrait1" class="mix-cover" href="https://credit-rewards-cheatsheet.herokuapp.com">
                 <img class="horizontal" src="https://i.imgur.com/V51lO78.png" alt="placeholder">
-      		      <span class="overlay"><span class="valign"></span><span class="title">Credit Rewards Cheatsheet</span></span>
-              </a>                
-      		  </li>
+                <span class="overlay"><span class="valign"></span><span class="title">Credit Rewards Cheatsheet</span></span>
+              </a>
+            </li>
     		    <li class="col-md-4 col-sm-4 col-xs-12 mix" data-cat="graphics">
-                <a data-toggle="modal" data-target="#portrait2" class="mix-cover">
+                <a data-target="#portrait2" class="mix-cover" href="https://krystneto.github.io/project_01_build_a_game/">
                   <img class="horizontal" src="https://i.imgur.com/DFdNd7W.png" alt="placeholder">
         		      <span class="overlay"><span class="valign"></span><span class="title">Sigh-Man</span></span>
                 </a>                
       		  </li>
       		  <li class="col-md-4 col-sm-4 col-xs-12 mix" data-cat="portraits">
-                <a data-toggle="modal" data-target="#portrait3" class="mix-cover">
+                <a data-target="#portrait3" class="mix-cover" href="https://storrry.herokuapp.com/">
                   <img class="horizontal" src="https://i.imgur.com/UWts3RR.png" alt="placeholder">
         		      <span class="overlay"><span class="valign"></span><span class="title">Storrry</span></span>
         		    </a>
       		  </li>
 			  <li class="col-md-4 col-sm-4 col-xs-12 mix" data-cat="portraits">
-                <a data-toggle="modal" data-target="#portrait5" class="mix-cover">
+                <a data-target="#portrait5" class="mix-cover" href="https://burst-trading-card-generator.herokuapp.com/">
                   <img class="horizontal" src="https://i.imgur.com/5DIaaNf.png" alt="placeholder">
         		       <span class="overlay"><span class="valign"></span><span class="title">Burst Card Generator</span></span>
         		    </a>
           </li>
           <li class="col-md-4 col-sm-4 col-xs-12 mix" data-cat="nature">
-              <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+              <a data-target="#nature1" class="mix-cover" href="https://js-react-challenge.herokuapp.com/">
                 <img class="horizontal" src="https://i.imgur.com/UsAQjAK.png" alt="placeholder">
                 <span class="overlay"><span class="valign"></span><span class="title">The Faker Market</span></span>
               </a>
@@ -374,7 +380,6 @@
                   <li><a href="https://github.com/krystneto"><i class="fa fa-github-alt fa-3x"></i></a></li>
                   <li><a href="https://www.linkedin.com/in/kristopher-parchen/"><i class="fa fa-linkedin fa-3x"></i></a></li>
             </ul>	
-           <h2>Thank You</h2>
            <em>&copy; 2017 <u><a href="/">Kristopher Parchen.</a></u> All Rights Reserved.</em>
           </div>
         </div>
@@ -399,6 +404,7 @@ $.vegas('slideshow', {
   backgrounds:[
     { src:'https://i.imgur.com/0xv15kg.jpg', fade:3000 },
     { src:'https://i.imgur.com/hOh8LXz.jpg?', fade:3000 },
+    { src:'https://i.imgur.com/pMERKdT.jpg?2', fade:3000 },
     { src:'https://i.imgur.com/1kwwqKg.jpg?1', fade:3000 }
   ]
 })('overlay', {

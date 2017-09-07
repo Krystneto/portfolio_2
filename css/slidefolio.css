@@ -59,6 +59,7 @@ cursor:pointer;
 /*Vegas CSS for Slideshow*/
 
 .vert-text {
+
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -174,17 +175,15 @@ border-radius:0px !important;
   position: relative;
 }
 .btn-top {
-color:#f1f1f1;
-background:none repeat scroll 0 0 rgba(0, 0, 0, 0.57);
-border-color:#cccccc;
+  font-size: 80px;
+  margin-top: 5em;
+  color: #40E0CF;
 }
 .btn-top:hover,
 .btn-top:focus,
 .btn-top:active,
 .btn-top.active {
-  color: #333333;
-  background-color: #ebebeb;
-  border-color: #adadad;
+  color:#f1f1f1;
 }
 
 /* about us */
@@ -200,10 +199,21 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-container img {
+  height: 200px;
+  width: 200px;
+}
+
 /* Services */
 
 .services {
-   background: none repeat scroll 0 0 #4D4D4D;
+  background: none repeat scroll 0 0 #4D4D4D;
   padding: 50px 0;
   color: #eeeeee;
   width: 100%;
@@ -406,6 +416,17 @@ footer {
 .icon-highlight a:hover {
   color: #fff !important;
 }
+
+.image-circle {
+  border-radius: 50%;
+  margin: 20px;
+}
+
 /* responsive */
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { .navbar-brand {margin-left:20px;} .navbar-toggle {margin-right:25px;} #Grid .mix{margin-left:-25px;}}
+@media (max-width: 768px) { .navbar-brand {margin-left:20px;} .navbar-toggle {margin-right:25px;} #Grid .mix{margin-left:-25px;}
+  .lead {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
