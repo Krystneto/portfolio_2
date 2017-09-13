@@ -219,7 +219,7 @@ body {
 .btn-top:focus,
 .btn-top:active,
 .btn-top.active {
-  color: #f1f1f1;
+  color: #e04051;
 }
 
 
@@ -250,17 +250,21 @@ body {
   align-items: center;
 }
 
-.about-me-container img {
+.about-me-container--circle {
   margin-bottom: 2em;
   height: 200px;
   width: 200px;
   box-sizing: border-box;
+  border-radius: 50%;
 }
 
-.about-me-container img:hover {
+.about-me-container--circle:hover {
   border: 3px solid #40e0d0
 }
 
+.complement-color {
+  background-color: #e04051;
+}
 /* Services */
 
 .services {
@@ -293,10 +297,10 @@ body {
   margin-bottom: 1em;
 }
 
-.service-icon {
+/* .service-icon {
   font-size: 50px;
   padding: .25em;
-}
+} */
 
 .active {
   background: #3071A9 !important;
@@ -509,14 +513,13 @@ footer {
   color: #fff !important;
 }
 
-.image-circle {
+.image-container--circle {
   border-radius: 50%;
   margin: 20px;
 }
 
-.image-circle:hover {
 
-}
+
 
 
 /* responsive */
