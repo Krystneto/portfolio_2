@@ -119,12 +119,12 @@ body {
 
 .navbar-new .navbar-nav>li>a {
   color: #f1f1f1;
+  background-color: transparent;
 }
 
 .navbar-new .navbar-nav>li>a:hover,
 .navbar-new .navbar-nav>li>a:focus {
-  background-color: #40e0d0;
-  color: #000
+  color: #40e0d0;
 }
 
 .navbar-new .navbar-toggle {
@@ -154,7 +154,6 @@ body {
 .navbar-new .navbar-nav>.open>a,
 .navbar-new .navbar-nav>.open>a:hover,
 .navbar-new .navbar-nav>.open>a:focus {
-  background-color: #e7e7e7;
   color: #555555;
 }
 
@@ -286,12 +285,17 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
+.services--h2 {
+  color: #40e0d0;
+}
+
 .service-item {
   margin-bottom: 15px;
   background: #333333;
+  color: #fff;
   padding: 10px;
   padding-bottom: 2em;
-  border: 1px solid #D1D1D1 !important;
+  border: 2px solid #40e0d0 !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
@@ -307,6 +311,10 @@ body {
 .service--a:visited {
   text-decoration: none;
   color: #fff;
+}
+
+.service-icon {
+  margin:5px;
 }
 
 .active {
