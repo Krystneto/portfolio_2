@@ -75,11 +75,13 @@ body {
   background: rgba(0, 0, 0, 0.48);
 }
 
-.vert-text h1 {
+.vert-text h2 {
   padding: 0;
   margin: 0;
   font-size: 4.5em;
-  font-weight: 700;
+  color: #40e0d0; 
+  font-family: 'Hello Stockholm'; 
+  font-size:140px;
 }
 
 #Grid .mix {
@@ -227,7 +229,7 @@ body {
 
 .about_us {
   padding: 50px 0;
-  background: none repeat scroll 0 0 #fff;
+  background: none repeat scroll 0 0 #40e0d0;
   /* border-bottom: 1px solid #D1D1D1 !important; */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
@@ -521,6 +523,17 @@ span.valign {
   width: 60% !important;
 }
 
+.icon-highlight__i {
+  color: #e04051;;
+  margin-left: .25em;
+  margin-right: .25em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.icon-highlight__i:hover {
+  color: #40e0d0;
+}
 
 /* Footer */
 
@@ -529,12 +542,9 @@ footer {
   background: #40e0d0;
 }
 
-.icon-highlight a {
-  color: #333333 !important;
-}
-
-.icon-highlight a:hover {
-  color: #fff !important;
+.footer__a:link {
+  text-decoration: none;
+  color: #000;
 }
 
 .image-container--circle {
