@@ -84,6 +84,14 @@ body {
   font-size:140px;
 }
 
+#Grid > li {
+  list-style-type: none;
+}
+
+#Grid > li > p {
+  margin-bottom: 1.5rem;
+}
+
 #Grid .mix {
   opacity: 0;
   display: none;
@@ -407,6 +415,9 @@ label.error {
   border-radius: 4px 4px 0 0;
   display: block;
   overflow: hidden;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.065);
+  margin-bottom: 2rem;
 }
 
 .gallery.portfolio a.mix-cover,
@@ -474,14 +485,13 @@ img.placeholder {
 .overlay i,
 .overlay span.title {
   color: #FFFFFF;
-  font-size: 40px;
   position: relative;
   top: -60px;
   transition: all 0.3s ease 0s;
 }
 
 .overlay span.title {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .overlay:hover i,
